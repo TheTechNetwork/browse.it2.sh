@@ -44,8 +44,11 @@ $script:Browsers = @(
         Fallback = 'https://2browse.it2.sh/2Browse.exe'   # copy committed in this repo
     }
     [pscustomobject]@{
+        # Note: the SourceForge vendor URL is an INSTALLER (leaves K-Meleon
+        # installed) — upload a portable K-Meleon build to the mirror for a
+        # clean, nothing-left-behind launch, and it'll be preferred.
         Key = 'kmeleon'; Name = 'K-Meleon'; Default = $false
-        Blurb = "Lightweight Gecko browser"
+        Blurb = "Lightweight Gecko browser (vendor = installer; mirror a portable build for clean launch)"
         Type = 'exe'; Exe = $null
         Url = 'https://sourceforge.net/projects/kmeleon/files/latest/download'
         Fallback = "$MirrorBase/kmeleon.exe"
