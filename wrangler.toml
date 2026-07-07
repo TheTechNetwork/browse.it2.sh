@@ -10,6 +10,13 @@ binding = "ASSETS"
 [observability]
 enabled = true
 
+# Primary domain is browse.it2.sh; 2browse.it2.sh stays routed for back-compat
+# (it defaults to the 2Browse target). Both need their custom domain configured
+# in Cloudflare.
+[[routes]]
+pattern = "browse.it2.sh"
+custom_domain = true
+
 [[routes]]
 pattern = "2browse.it2.sh"
 custom_domain = true
