@@ -13,7 +13,7 @@
 # then from our GitHub mirror if the vendor URL is down or has rotted. 2Browse
 # also ships a copy in this repo, so it always works offline of the vendor.
 #
-# Source: https://github.com/TheTechNetwork/2browse.it2.sh
+# Source: https://github.com/TheTechNetwork/browse.it2.sh
 
 $ErrorActionPreference = 'Stop'
 
@@ -23,7 +23,7 @@ if (-not $script:LaunchCommand) { $script:LaunchCommand = 'irm browse.it2.sh | i
 
 # GitHub Release that mirrors the portable-browser binaries. Upload each browser
 # here (tag `browsers`) so the fallback works when a vendor URL rots.
-$MirrorBase = 'https://github.com/TheTechNetwork/2browse.it2.sh/releases/download/browsers'
+$MirrorBase = 'https://github.com/TheTechNetwork/browse.it2.sh/releases/download/browsers'
 
 # ---------------------------------------------------------------------------
 # Browser registry — the single source of truth for the menu.

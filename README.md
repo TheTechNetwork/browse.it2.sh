@@ -54,7 +54,7 @@ For any browser whose vendor URL isn't stable, upload the portable build to a
 GitHub Release tagged `browsers` on this repo:
 
 ```
-https://github.com/TheTechNetwork/2browse.it2.sh/releases/download/browsers/<file>
+https://github.com/TheTechNetwork/browse.it2.sh/releases/download/browsers/<file>
 ```
 
 - Single-exe browsers → upload the `.exe` (registry `Type = 'exe'`).

@@ -14,7 +14,7 @@
 
 const TITLE = "browse.it2.sh";
 const TAGLINE = "Launch a portable browser in one line — download, run, clean up.";
-const REPO = "https://github.com/TheTechNetwork/2browse.it2.sh";
+const REPO = "https://github.com/TheTechNetwork/browse.it2.sh";
 const RUN_CMD = "irm browse.it2.sh | iex";
 
 // Path targets → canonical browser Key in browse.ps1's $script:Browsers registry.
